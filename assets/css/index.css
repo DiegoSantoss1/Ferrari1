@@ -1,15 +1,24 @@
-@import "reset.css";
+@import 'open-sans.css';
+@import 'reset.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'home.css';
 
-header.top-site {
-    width: 100%;
-    background-color:#E5E3DFBF;
-    position: relative;
-    background-color: var(--header);
+main {
+    min-height: calc(100vh - 463px);    
 }
 
-footer.footer-site {
-    background-color: #343433
-}
+
+/* Aqui começa o Header */
+
+
+/*Aqui termina o Header*/
+
+/*aqui começa o footer */
+
+
+
+
 /*mobile first*/
 /*breakpoint*/
 /*tablet ou celular landscape */
