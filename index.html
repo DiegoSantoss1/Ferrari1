@@ -8,16 +8,36 @@
 </head>
 <body>
     <header id="header">
+        <div id="overlay" data-close="menu"></div>
         <img src="assets/images/ferrari-logo.svg" id="logo" alt="Logo" />
-        <button type="button">
+        <button type="button" id="btn-open">
             <img src="assets/images/menu-black-18dp.svg" alt="menu">
         </button>
-        <hr />
+        <nav class="menu">
+            <div>
+                <button type="button" id="btn-close" data-close="menu">
+                    <img src="/assets/images/close-black-18dp.svg" alt="close"/>
+                </button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/our-history.html">Nossa História</a></li>
+                    <li><a href="/gallery.html">Galeria</a></li>
+                    <li><a href="/contact.html">Contato</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn-register">
+                Registre-se / Login
+            </button>
+        </nav>
+
     </header>
     <main id="home">
+
+        <hr class="italy"/>
+        
         <header>
             <h1>SF90 Stradale</h1>
-    <a href='#'>Detalhes</a>
+            <a href='#'>Detalhes</a>
         </header>
         <section class="gallery">
             <figure>
@@ -58,14 +78,22 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, eos necessit
             </div>
         </section>
     
+        <section class="know">
+            <h1>Conheça a Máquina</h1>
+            <img src="/assets/images/index/top-view.jpg" alt="Ferrari Top view" />
+        </section>
+
+    
+    
+    
+    
+    
     </main>
 
     <footer id="footer">
         <button type="button">
             <img src="assets/images/keyboard_arrow_up-black-18dp.svg" alt="up" />
         </button>
-
-
         <ul>
             <li class="title">
                 Contato
@@ -74,20 +102,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, eos necessit
                 support@ferrari.it
             </li>
             <li class="social">
-
-<a href="#"><img src="assets/images/index/facebook.png" alt="Facebook"></a>
-<a href="#"><img src="assets/images/index/twitter.png" alt="Twitter"></a>
-<a href="#"><img src="assets/images/index/youtube.png" alt="YouTube"></a>
-<a href="#"><img src="assets/images/index/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/images/index/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/images/index/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/images/index/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="assets/images/index/instagram.png" alt="Instagram"></a>
             </li>
         </ul>  
 
-<img src="assets/images/ferrari-2.svg" alt="Logo" class="logo"/>
+        <img src="assets/images/ferrari-2.svg" alt="Logo" class="logo"/>
 
-<p>
-    2020 HCode. All rights reserved.
-</p>
+        <p>2020 HCode. All rights reserved.</p>
 
     </footer>
+
+
+    <script type="text/javascript" src="javascript/index.js"></script>
 </body>
 </html>
