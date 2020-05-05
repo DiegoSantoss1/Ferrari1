@@ -11,3 +11,4 @@ closeMenu.forEach( el => {
         body.classList.remove('open-menu');
     })
 })
+

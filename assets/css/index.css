@@ -9,7 +9,7 @@
 @import 'register.css';
 @import 'home.css';
 @import 'login.css';
-
+@import 'error.css';
 
 main {
     min-height: calc(100vh - 463px);    
