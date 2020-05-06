@@ -133,8 +133,30 @@ a:hover {
     color: var(--black)
 }
 
-@media (min-width: 576px){
+.show-desktop {
+    display: none;  
+}
+
+
+/*Daqui pra cima é tudo celular*/
+
+@media (min-width: 576px) {
     .page header {
         height: 45vh;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+/*desktop - telas de 1200px*/
+
+@media (min-width: 1200px) {
+    .show-desktop {
+        display: flex;  
+    }
+    .hide-desktop {
+        display: none;
     }
 }
