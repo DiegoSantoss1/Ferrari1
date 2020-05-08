@@ -4,6 +4,12 @@
 
 }
 
+#home hr {
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+}
+
 #home header {
     width: 100%;
     min-width: 320px;
