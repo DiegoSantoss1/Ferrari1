@@ -31,7 +31,7 @@
 
     #register.page section {
         flex-direction: row;
-        height: calc(100vh -280px);
+        min-height: calc(100vh - 280px);
     }
 
     #register.page section .image,
